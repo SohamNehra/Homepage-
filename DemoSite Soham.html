@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    body {
+        
+        background-image: url(https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+    .box {
+        padding: 4px;
+        border-color: yellow;
+        border-radius: 7px;
+        margin: 2px;
+        color: rgb(241, 200, 15);
+        background-color: rgb(14, 64, 94);
+    }
+
+    .button {
+        border: 2px;
+        color: white;
+        padding: 10px;
+        border-radius: 7px;
+        border-color: silver;
+        align-items: center;
+        align-content: center;
+        font-size: 45px;
+    
+
+    }
+
+    .navbar {
+        display: flex;
+        padding: 2px;
+        border-radius: 30px;
+        background-color: black;
+        align-items: center;
+        text-align: center;
+        margin: 1px;
+        border: 1px;
+        margin: 1px;
+        opacity: 0.4;
+        border-color: silver;
+        justify-content: center;
+    }
+
+    .button:hover {
+        size: 25px;
+        color: red;
+        background-color: rgb(226, 241, 9);
+        font-size: 45px;
+        cursor: pointer;
+        border-color: silver;
+    }
+
+    .forum {
+        display: grid;
+        align-self: flex-end;
+        color: whitesmoke;
+        margin: 1px;
+        border: 1px;
+        margin: 1px;
+        background-color: black;
+        border-radius: 30px;
+ justify-content: flex-end;
+        opacity: 0.7;
+        justify-self: end;
+        border-width: 400px;
+         
+
+
+    }
+
+    .content {
+        display: grid;
+
+    }
+    .forum :hover{
+        cursor: text;
+        color: yellow;
+        text-transform: capitalize;
+        
+    }
+    
+
+    input{
+        font-size: 25px;
+    }
+    #name_input{
+        background-color: rgba(255,255, 255, 0.5);
+        color: black;
+        border: solid 2px black;
+        border-radius: 10px;
+        border-start-start-radius: 0px;
+        margin-left: 0px;
+        border-left:solid 2px red;
+    }
+
+    #name_label {
+        background-color: rgba(255,255, 255, 0.5);
+        border: solid 2px black;
+        border-radius: 10px;
+        margin-right: 0px;
+        border-end-end-radius: 0px;
+        color: black;
+        font-size: 25px;
+        border-right: 0px;
+
+
+    }
+</style>
+
+<body>
+
+
+    <ul class="navbar">
+        <h1 class="button" a href="https://www.google.com:">Home</h1>
+        <h1 class="button">Gallery</h1>
+        <h1 class="button">Registraiton</h1>
+        <h1 class="button">Competetion</h1>
+        <h1 class="button">Events</h1>
+        <h1 class="button">Other</h1>
+        <h1 class="button">Contact us</h1>
+
+
+    </ul>
+
+
+    <p class="box" style="font-size: 28px;"><marquee>Welcome to the Site . This is the homepage for demo site.</marquee></p>
+
+    <ul class="forum"> 
+        <div class="input-group" style="padding: 5px;position:relative; right:40px; top:40px;">
+            <span class="input-group-text">Name</span>
+            <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="input-group" style="padding: 5px;position:relative; right:40px; top:43px;">
+            <span class="input-group-text">Age</span>
+            <input type="number" class="form-control" placeholder="Enter your age">
+        </div>
+
+        <div class="input-group" style="padding: 5px;position:relative; right:40px; top:46px;">
+            <span class="input-group-text">Email</span>
+            <input type="email" class="form-control" placeholder="Enter your email">
+        </div>
+        <div class="input-group" style="padding: 5px;position:relative; right:40px; top:49px;">
+            <span class="input-group-text">Starting Date</span>
+            <input type="month" class="form-control">
+        </div>
+        <div class="input-group" style="padding: 5px;position:relative; right:40px; top:52px;">
+            <span class="input-group-text">Ending Date</span>
+            <input type="month" class="form-control" >
+        </div>
+        <div class="input-group" style="padding: 5px;position:relative; right:40px; top:55px;">
+            <span class="input-group-text">Contact Number</span>
+            <input type="number" class="form-control" placeholder="Enter your number">
+        </div>
+        <div class="input-group" style="padding: 5px;position:relative; right:40px; top:58px;">
+            <span class="input-group-text">Submit</span>
+            <input type="submit" class="form-control" placeholder="Any comment">
+        </div>
+<script>
+    
+</script>
+
+
+</body>
+
+</html>
